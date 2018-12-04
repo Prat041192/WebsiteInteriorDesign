@@ -1,0 +1,55 @@
+body{
+    color: #466A70;
+}
+
+
+section, 
+header,
+article{
+    margin: auto;
+}
+
+header .w3-image{
+    display: block;
+    width: 70% ;
+    margin: auto;
+    height: 600px
+}
+
+section.contact{
+    display: block;
+    width: 70%
+}
+
+article.about,
+article.projects{
+    display: block;
+    width: 70%;
+}
+
+article.about section:hover,
+section.contact:hover,
+article.projects .header:hover,
+footer:hover{
+    background-color:#EEDAD9;
+}
+section.owner{
+    margin: auto;
+}
+
+section.owner img{
+    height: 20%;
+    width: 20%;
+}
+
+body a:hover{
+    cursor: pointer;
+}
+
+footer{
+    background-color: #fff;
+}
+
+.w3-top {
+    background-color: #EEDAD9;
+}
